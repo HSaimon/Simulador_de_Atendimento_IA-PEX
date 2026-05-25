@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
   AlertTriangle,
@@ -15,7 +15,6 @@ import {
   Download,
   FileBarChart,
   FilePlus2,
-  Filter,
   Gauge,
   GraduationCap,
   Headphones,
@@ -30,11 +29,9 @@ import {
   Mail,
   MessageCircle,
   Mic,
-  MoreHorizontal,
   PauseCircle,
   Play,
   Plus,
-  RefreshCw,
   Search,
   Settings,
   ShieldCheck,
@@ -45,7 +42,6 @@ import {
   Target,
   UserCheck,
   Users,
-  Wifi,
   XCircle
 } from 'lucide-react';
 import './styles.css';
